@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.cont{
+    background-color:hsl(0, 0%, 12%) ;
+    width:  max-content;
+    margin: auto;
+    margin-top: 5rem;
+    text-align: center;
+    padding: 1.2rem 1.7rem;
+    border-radius: 10px;
+}
+.cont>.intro>img{
+    border-radius: 50%;
+    width: 6rem;
+    
+}
+.cont>.intro>h1{
+    margin-bottom: 0;
+}
+.cont>.intro>#adrs{
+    margin-top: 10px;
+    margin-bottom: 1.3rem;
+    color: hsl(75, 94%, 57%) ;
+}
+#bio{
+    margin-bottom: 1.5rem;
+}
+.links{
+    background-color:hsl(0, 0%, 20%) ;
+    padding: 1.1rem 0;
+    width: 19rem;
+    margin-bottom: 1rem;
+    border-radius: 7px;
+    display: block;
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    
+}
+
+.links:hover{
+color: black;
+background-color: hsl(75, 94%, 57%);
+cursor: pointer;
+
+}
